@@ -33,19 +33,19 @@ class ImageViewController: UIViewController {
     private func setupView() {
         
         // Set image view properties
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         imageView.image = UIImage(named: imageName)
         
         // Add image view to view
         imageView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(imageView)
         
-        // Set image view constraints
+        // Set image view constraints to fill the entire view (not just safe area)
         NSLayoutConstraint.activate([
-            imageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            imageView.topAnchor.constraint(equalTo: view.topAnchor),
             imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            imageView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
 }

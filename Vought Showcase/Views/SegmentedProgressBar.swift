@@ -68,6 +68,7 @@ class SegmentedProgressBar: UIView {
     private let duration: TimeInterval
     private var hasDoneLayout = false
     private var currentAnimationIndex = 0
+    private var isAnimating = false
     
     /// Initializes a new SegmentedProgressBar with the specified number of segments and duration.
     /// - Parameters:
@@ -105,19 +106,24 @@ class SegmentedProgressBar: UIView {
             let cr = frame.height / 2
             segment.bottomSegmentView.layer.cornerRadius = cr
             segment.topSegmentView.layer.cornerRadius = cr
+           
         }
-        hasDoneLayout = true
+         hasDoneLayout = true
+        
     }
     
     /// Starts the progress bar animation.
     func startAnimation() {
         layoutSubviews()
+         reset()
         animate()
     }
     
     private func animate(animationIndex: Int = 0) {
         let nextSegment = segments[animationIndex]
+        
         currentAnimationIndex = animationIndex
+
         self.isPaused = false
         UIView.animate(withDuration: duration, delay: 0.0, options: .curveLinear, animations: {
             nextSegment.topSegmentView.frame.size.width = nextSegment.bottomSegmentView.frame.width
@@ -125,8 +131,10 @@ class SegmentedProgressBar: UIView {
             if !finished {
                 return
             }
+           
             self.next()
         }
+        
     }
     
     private func updateColors() {
@@ -164,6 +172,15 @@ class SegmentedProgressBar: UIView {
         prevSegment.topSegmentView.frame.size.width = 0
         self.animate(animationIndex: newIndex)
         self.delegate?.segmentedProgressBarChangedIndex(index: newIndex)
+    }
+    
+    func reset() {
+        for segment in segments {
+            segment.topSegmentView.layer.removeAllAnimations()
+            segment.topSegmentView.frame.size.width = 0
+        }
+        currentAnimationIndex = 0
+        isAnimating = false
     }
 }
 
