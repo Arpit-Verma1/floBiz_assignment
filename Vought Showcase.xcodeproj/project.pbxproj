@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29EE8A4720A2D9F4D1FB1F19 /* Pods_Vought_Showcase_Vought_ShowcaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A7257DA72849A9451B6F7 /* Pods_Vought_Showcase_Vought_ShowcaseUITests.framework */; };
 		5E1E353D2C623996000D7DEF /* UIViewController+AddChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E353C2C623996000D7DEF /* UIViewController+AddChild.swift */; };
 		5E1E353F2C6247C5000D7DEF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E353E2C6247C5000D7DEF /* ImageViewController.swift */; };
 		5E1E35422C6248A6000D7DEF /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E35412C6248A6000D7DEF /* CarouselItem.swift */; };
@@ -28,6 +29,13 @@
 		5E87DC912C6232440005D86C /* Vought_ShowcaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E87DC902C6232440005D86C /* Vought_ShowcaseUITestsLaunchTests.swift */; };
 		5E87DCA02C6236A30005D86C /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E87DC9F2C6236A30005D86C /* CarouselViewController.swift */; };
 		5E87DCA22C62375E0005D86C /* CarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E87DCA12C62375E0005D86C /* CarouselViewController.xib */; };
+		8463A8D02E2E77EB00F410FE /* MMCarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463A8CF2E2E77EB00F410FE /* MMCarouselItem.swift */; };
+		8463A8D12E2E77EB00F410FE /* HugheiCarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463A8CE2E2E77EB00F410FE /* HugheiCarouselItem.swift */; };
+		8463A8D22E2E77EB00F410FE /* FrenchieCarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463A8CD2E2E77EB00F410FE /* FrenchieCarouselItem.swift */; };
+		8463A8D32E2E77EB00F410FE /* ButcherCarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463A8CC2E2E77EB00F410FE /* ButcherCarouselItem.swift */; };
+		8463A8D52E2E7B5B00F410FE /* BottomUpPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463A8D42E2E7B5B00F410FE /* BottomUpPresentationController.swift */; };
+		EA66DA725E007CE956060FCB /* Pods_Vought_ShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0274B258FB9AC1115FCD1577 /* Pods_Vought_ShowcaseTests.framework */; };
+		F8369544C4CA81EB89948708 /* Pods_Vought_Showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A9D3156FEDB0AF5052A050 /* Pods_Vought_Showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009A7257DA72849A9451B6F7 /* Pods_Vought_Showcase_Vought_ShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vought_Showcase_Vought_ShowcaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0274B258FB9AC1115FCD1577 /* Pods_Vought_ShowcaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vought_ShowcaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3C6954DDF9F3A78AEC992E /* Pods-Vought Showcase-Vought ShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vought Showcase-Vought ShowcaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vought Showcase-Vought ShowcaseUITests/Pods-Vought Showcase-Vought ShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23F02715E6BF585153E31087 /* Pods-Vought Showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vought Showcase.debug.xcconfig"; path = "Target Support Files/Pods-Vought Showcase/Pods-Vought Showcase.debug.xcconfig"; sourceTree = "<group>"; };
 		5E1E353C2C623996000D7DEF /* UIViewController+AddChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddChild.swift"; sourceTree = "<group>"; };
 		5E1E353E2C6247C5000D7DEF /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		5E1E35412C6248A6000D7DEF /* CarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
@@ -73,6 +85,16 @@
 		5E87DC902C6232440005D86C /* Vought_ShowcaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vought_ShowcaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5E87DC9F2C6236A30005D86C /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
 		5E87DCA12C62375E0005D86C /* CarouselViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselViewController.xib; sourceTree = "<group>"; };
+		62A9D3156FEDB0AF5052A050 /* Pods_Vought_Showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vought_Showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463A8CC2E2E77EB00F410FE /* ButcherCarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButcherCarouselItem.swift; sourceTree = "<group>"; };
+		8463A8CD2E2E77EB00F410FE /* FrenchieCarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchieCarouselItem.swift; sourceTree = "<group>"; };
+		8463A8CE2E2E77EB00F410FE /* HugheiCarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugheiCarouselItem.swift; sourceTree = "<group>"; };
+		8463A8CF2E2E77EB00F410FE /* MMCarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCarouselItem.swift; sourceTree = "<group>"; };
+		8463A8D42E2E7B5B00F410FE /* BottomUpPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomUpPresentationController.swift; sourceTree = "<group>"; };
+		C567330797FB77014E9DA05B /* Pods-Vought Showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vought Showcase.release.xcconfig"; path = "Target Support Files/Pods-Vought Showcase/Pods-Vought Showcase.release.xcconfig"; sourceTree = "<group>"; };
+		CFBD4BBCA0ED766B895959BC /* Pods-Vought ShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vought ShowcaseTests.debug.xcconfig"; path = "Target Support Files/Pods-Vought ShowcaseTests/Pods-Vought ShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D26DA7870C1796D60E9122 /* Pods-Vought ShowcaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vought ShowcaseTests.release.xcconfig"; path = "Target Support Files/Pods-Vought ShowcaseTests/Pods-Vought ShowcaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9203AC1AC6E918B330DC7E2 /* Pods-Vought Showcase-Vought ShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vought Showcase-Vought ShowcaseUITests.release.xcconfig"; path = "Target Support Files/Pods-Vought Showcase-Vought ShowcaseUITests/Pods-Vought Showcase-Vought ShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8369544C4CA81EB89948708 /* Pods_Vought_Showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA66DA725E007CE956060FCB /* Pods_Vought_ShowcaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EE8A4720A2D9F4D1FB1F19 /* Pods_Vought_Showcase_Vought_ShowcaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +146,10 @@
 		5E1E354B2C624BF4000D7DEF /* CarouselItems */ = {
 			isa = PBXGroup;
 			children = (
+				8463A8CC2E2E77EB00F410FE /* ButcherCarouselItem.swift */,
+				8463A8CD2E2E77EB00F410FE /* FrenchieCarouselItem.swift */,
+				8463A8CE2E2E77EB00F410FE /* HugheiCarouselItem.swift */,
+				8463A8CF2E2E77EB00F410FE /* MMCarouselItem.swift */,
 				5E1E35432C62497D000D7DEF /* HomeLanderCarouselItem.swift */,
 				5E1E35452C624AB9000D7DEF /* MaeveCarouselItem.swift */,
 				5E1E35472C624B31000D7DEF /* BlackNoirCarouselItem.swift */,
@@ -161,6 +190,8 @@
 				5E87DC832C6232440005D86C /* Vought ShowcaseTests */,
 				5E87DC8D2C6232440005D86C /* Vought ShowcaseUITests */,
 				5E87DC6B2C6232430005D86C /* Products */,
+				FC83B858F2F05A2F08F86898 /* Pods */,
+				99B4950AEC3BD42EBB969659 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +241,7 @@
 		5E87DC9D2C6232DC0005D86C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8463A8D42E2E7B5B00F410FE /* BottomUpPresentationController.swift */,
 				5E87DC9F2C6236A30005D86C /* CarouselViewController.swift */,
 				5E87DCA12C62375E0005D86C /* CarouselViewController.xib */,
 				5E87DC712C6232430005D86C /* MainViewController.swift */,
@@ -219,6 +251,29 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		99B4950AEC3BD42EBB969659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62A9D3156FEDB0AF5052A050 /* Pods_Vought_Showcase.framework */,
+				009A7257DA72849A9451B6F7 /* Pods_Vought_Showcase_Vought_ShowcaseUITests.framework */,
+				0274B258FB9AC1115FCD1577 /* Pods_Vought_ShowcaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC83B858F2F05A2F08F86898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23F02715E6BF585153E31087 /* Pods-Vought Showcase.debug.xcconfig */,
+				C567330797FB77014E9DA05B /* Pods-Vought Showcase.release.xcconfig */,
+				1F3C6954DDF9F3A78AEC992E /* Pods-Vought Showcase-Vought ShowcaseUITests.debug.xcconfig */,
+				E9203AC1AC6E918B330DC7E2 /* Pods-Vought Showcase-Vought ShowcaseUITests.release.xcconfig */,
+				CFBD4BBCA0ED766B895959BC /* Pods-Vought ShowcaseTests.debug.xcconfig */,
+				D5D26DA7870C1796D60E9122 /* Pods-Vought ShowcaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E87DC942C6232440005D86C /* Build configuration list for PBXNativeTarget "Vought Showcase" */;
 			buildPhases = (
+				3FB42AFDD8F12775CF6BE070 /* [CP] Check Pods Manifest.lock */,
 				5E87DC662C6232430005D86C /* Sources */,
 				5E87DC672C6232430005D86C /* Frameworks */,
 				5E87DC682C6232430005D86C /* Resources */,
+				D85788412BE5039754E25C78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E87DC972C6232440005D86C /* Build configuration list for PBXNativeTarget "Vought ShowcaseTests" */;
 			buildPhases = (
+				05CF9004A0EFDE3E8F3D3916 /* [CP] Check Pods Manifest.lock */,
 				5E87DC7C2C6232440005D86C /* Sources */,
 				5E87DC7D2C6232440005D86C /* Frameworks */,
 				5E87DC7E2C6232440005D86C /* Resources */,
@@ -261,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E87DC9A2C6232440005D86C /* Build configuration list for PBXNativeTarget "Vought ShowcaseUITests" */;
 			buildPhases = (
+				B04748300F39A74619648F07 /* [CP] Check Pods Manifest.lock */,
 				5E87DC862C6232440005D86C /* Sources */,
 				5E87DC872C6232440005D86C /* Frameworks */,
 				5E87DC882C6232440005D86C /* Resources */,
+				8335D843673FF2FC4232E4F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -346,6 +406,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05CF9004A0EFDE3E8F3D3916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vought ShowcaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB42AFDD8F12775CF6BE070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vought Showcase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8335D843673FF2FC4232E4F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vought Showcase-Vought ShowcaseUITests/Pods-Vought Showcase-Vought ShowcaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vought Showcase-Vought ShowcaseUITests/Pods-Vought Showcase-Vought ShowcaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vought Showcase-Vought ShowcaseUITests/Pods-Vought Showcase-Vought ShowcaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04748300F39A74619648F07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vought Showcase-Vought ShowcaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D85788412BE5039754E25C78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vought Showcase/Pods-Vought Showcase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vought Showcase/Pods-Vought Showcase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vought Showcase/Pods-Vought Showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E87DC662C6232430005D86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -359,11 +530,16 @@
 				5E87DC6E2C6232430005D86C /* AppDelegate.swift in Sources */,
 				5E1E35462C624AB9000D7DEF /* MaeveCarouselItem.swift in Sources */,
 				5E1E354F2C624C2A000D7DEF /* CarouselItemDataSourceProviderType.swift in Sources */,
+				8463A8D52E2E7B5B00F410FE /* BottomUpPresentationController.swift in Sources */,
 				5E1E353D2C623996000D7DEF /* UIViewController+AddChild.swift in Sources */,
 				5E1E35512C624C4D000D7DEF /* CarouselItemDataSourceProvider.swift in Sources */,
 				5E1E35422C6248A6000D7DEF /* CarouselItem.swift in Sources */,
 				5E1E353F2C6247C5000D7DEF /* ImageViewController.swift in Sources */,
 				5E87DC702C6232430005D86C /* SceneDelegate.swift in Sources */,
+				8463A8D02E2E77EB00F410FE /* MMCarouselItem.swift in Sources */,
+				8463A8D12E2E77EB00F410FE /* HugheiCarouselItem.swift in Sources */,
+				8463A8D22E2E77EB00F410FE /* FrenchieCarouselItem.swift in Sources */,
+				8463A8D32E2E77EB00F410FE /* ButcherCarouselItem.swift in Sources */,
 				5E1E35572C634D75000D7DEF /* SegmentedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,12 +717,14 @@
 		};
 		5E87DC952C6232440005D86C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F02715E6BF585153E31087 /* Pods-Vought Showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3RP3B498TD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Vought Showcase/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -569,12 +747,14 @@
 		};
 		5E87DC962C6232440005D86C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C567330797FB77014E9DA05B /* Pods-Vought Showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3RP3B498TD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Vought Showcase/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -597,6 +777,7 @@
 		};
 		5E87DC982C6232440005D86C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBD4BBCA0ED766B895959BC /* Pods-Vought ShowcaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -617,6 +798,7 @@
 		};
 		5E87DC992C6232440005D86C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D26DA7870C1796D60E9122 /* Pods-Vought ShowcaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -637,6 +819,7 @@
 		};
 		5E87DC9B2C6232440005D86C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3C6954DDF9F3A78AEC992E /* Pods-Vought Showcase-Vought ShowcaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -655,6 +838,7 @@
 		};
 		5E87DC9C2C6232440005D86C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9203AC1AC6E918B330DC7E2 /* Pods-Vought Showcase-Vought ShowcaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
