@@ -1,0 +1,6 @@
+framework module Pods_Vought_Showcase_Vought_ShowcaseUITests {
+  umbrella header "Pods-Vought Showcase-Vought ShowcaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

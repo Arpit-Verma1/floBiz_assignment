@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import SnapKit
 
 
 final class CarouselViewController: UIViewController {
@@ -76,15 +75,14 @@ final class CarouselViewController: UIViewController {
         progressBar.bottomColor = .gray
         progressBar.backgroundColor = .clear
         
-        
         progressBar.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(progressBar)
-        progressBar.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
-            make.leading.trailing.equalToSuperview().inset(0)
-            make.height.equalTo(6)
-        }
-    
+        NSLayoutConstraint.activate([
+            progressBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            progressBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            progressBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            progressBar.heightAnchor.constraint(equalToConstant: 6)
+        ])
         view.bringSubviewToFront(progressBar)
     }
 
@@ -95,18 +93,20 @@ final class CarouselViewController: UIViewController {
         let rightView = UIView()
         leftView.backgroundColor = .clear
         rightView.backgroundColor = .clear
+        leftView.translatesAutoresizingMaskIntoConstraints = false
+        rightView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(leftView)
         view.addSubview(rightView)
-        leftView.snp.makeConstraints { make in
-            make.top.bottom.equalToSuperview()
-            make.leading.equalToSuperview()
-            make.width.equalTo(view.snp.width).multipliedBy(0.3)
-        }
-        rightView.snp.makeConstraints { make in
-            make.top.bottom.equalToSuperview()
-            make.trailing.equalToSuperview()
-            make.width.equalTo(view.snp.width).multipliedBy(0.3)
-        }
+        NSLayoutConstraint.activate([
+            leftView.topAnchor.constraint(equalTo: view.topAnchor),
+            leftView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            leftView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            leftView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.3),
+            rightView.topAnchor.constraint(equalTo: view.topAnchor),
+            rightView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            rightView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            rightView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.3)
+        ])
         leftView.addGestureRecognizer(leftTap)
         rightView.addGestureRecognizer(rightTap)
         // Ensure progress bar is always on top
