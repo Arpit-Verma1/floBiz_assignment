@@ -2,6 +2,12 @@
 
 A modern iOS application that showcases characters from "The Boys" TV series through an interactive carousel/story interface, built with Swift and UIKit.
 
+
+
+https://github.com/user-attachments/assets/a6f8659c-13fd-49ef-bcb4-f26fcc737600
+
+*Demo video showing the Vought Showcase app in action on iPhone 16 Pro simulator*
+
 ## 📱 Features
 
 - **Interactive Carousel**: Swipeable character showcase with smooth transitions
